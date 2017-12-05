@@ -14,7 +14,6 @@ $getinfo = "SELECT * FROM `admin` WHERE id = '$id'";
 $res = mysqli_query($conn, $getinfo);
 $row = mysqli_fetch_assoc($res);
 mysqli_query($conn, "UPDATE `admin` SET `zadnji_login`= NOW() WHERE 1");
-
 ?>
 
 <!DOCTYPE html>
