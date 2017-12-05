@@ -141,7 +141,7 @@
     <h2>Your pet's health and well-being are out top priority.</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore omnis voluptas beatae eligendi quisquam, molestiae consectetur ab magnam sed voluptatem!</p>
     <div class="row">                            
-    <div class="col-5">
+    <div class="col-6">
                                     <div class="single_service">
                                         <div class="single_service_icon">
                                             <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -153,7 +153,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-5">
+                                <div class="col-6">
                                     <div class="single_service">
                                         <div class="single_service_icon">
                                             <i class="fa fa-line-chart" aria-hidden="true"></i>
@@ -167,7 +167,7 @@
                                 </div>
 </div>
 <div class="row">
-                                <div class="col-5">
+                                <div class="col-6">
                                     <div class="single_service">
                                         <div class="single_service_icon">
                                             <i class="fa fa-desktop" aria-hidden="true"></i>
@@ -180,7 +180,7 @@
                                     </div>
                                 </div>
                                 <div class="border_divider"></div>
-                                <div class="col-5">
+                                <div class="col-6">
                                     <div class="single_service">
                                         <div class="single_service_icon">
                                             <i class="fa fa-book" aria-hidden="true"></i>
