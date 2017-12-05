@@ -10,12 +10,10 @@ if (!isset($_SESSION['id'])){
 
 
 $id = $_SESSION['id'];
-$getinfo = "SELECT * FROM users WHERE id = '$id'";
+$getinfo = "SELECT * FROM `admin` WHERE id = '$id'";
 $res = mysqli_query($conn, $getinfo);
 $row = mysqli_fetch_assoc($res);
-
-
-
+mysqli_query($conn, "UPDATE `admin` SET `zadnji_login`= NOW() WHERE 1");
 
 ?>
 
@@ -28,7 +26,10 @@ $row = mysqli_fetch_assoc($res);
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>Dashboard <h3><?php echo "Welcome back, ". $row['fname']." ". $row['lname'];?></h3></h1><hr>
+<form action="logout.php" method="POST">
+    <input type="submit" value="Logout"><br><br>
+    </form>
+    <h1>Dashboard <h3><?php echo "Welcome back, ". $row['ime_prezime']?></h3></h1><hr>
     <a href="logout.php">Logout</a>
 </body>
 </html>
