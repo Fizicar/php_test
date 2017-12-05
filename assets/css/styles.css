@@ -1,0 +1,44 @@
+#navbar1{
+    background-color: #611919;
+}
+
+#navbar1>a>i{
+    color: white;
+}
+
+#navbar2{
+    background-color: white;
+    color: black;
+}
+
+#navbar3{
+    background-color: orange;
+    color: white;
+}
+
+#navbar3>li>a:hover,#navbar3>li>a:focus{
+    color: black;
+}
+
+.jumbotron {
+    background-image: url("http://via.placeholder.com/800x500.png");    
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.btn-md{
+    background-color: orange;
+    color: white;
+}
+.btn-md:hover{
+    background-color: white;
+    color: orange;
+}
