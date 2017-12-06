@@ -45,11 +45,11 @@ if(isset($_POST['login_uname']) and isset($_POST['login_pwd'])){
     echo json_encode($form_data);} 
     
     
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     
-    if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset($_POST['register_pwd1']) and isset($_POST['register_pwd2'])){        
+if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset($_POST['register_pwd1']) and isset($_POST['register_pwd2'])){        
     
     $errors = array(); //To store errors
     $form_data = array(); //Pass back the data to `form.php`
