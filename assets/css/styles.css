@@ -1,9 +1,22 @@
+.font{
+    font-family: 'Roboto Slab', serif;    
+}
+
 #navbar1{
     background-color: #611919;
 }
 
-#navbar1>a>i{
+#navbar1 .navbar-brand{
+color:white;
+}
+
+#navbar1 i{
     color: white;
+    padding: 5px;
+}
+
+#navbarsExampleContainer i:hover{
+    color: orange;
 }
 
 #navbar2{
@@ -11,12 +24,12 @@
     color: black;
 }
 
-#navbar3{
+#navbar3, #navbar3 .nav-link{
     background-color: orange;
     color: white;
 }
 
-#navbar3>li>a:hover,#navbar3>li>a:focus{
+#navbar3 .nav-link:hover,#navbar3 .nav-link:focus{
     color: black;
 }
 
@@ -42,7 +55,7 @@
     color: orange;
 }
 
-<!--Counter Section-->
+/*Counter Section*/
 .sections {
     padding-top: 85px;
     padding-bottom: 105px;
@@ -53,6 +66,11 @@
     width: 100%;
     height: 750px;
 }
+
+.welcome i{
+    color: orange;
+}
+
 .counter_two{
     background: url("http://via.placeholder.com/800x200.png") no-repeat 100% 100%;
     background-size:cover;
@@ -117,7 +135,6 @@
 .home-doctors {
     text-align: center;
     padding: 70px 0 80px;
-    background: #f0f5f6;
   }
   
   .home-doctors h2 {
@@ -125,7 +142,7 @@
   }
   
   .home-doctors .common-doctor {
-    background-color: #fff;
+    background-color: #f0f5f6;
   }
   .home-doctors .common-doctor figure {
     overflow: hidden;
@@ -428,6 +445,11 @@ section {
     margin-right: 100px;
 }
 
+.contacts{
+    background-color: rgba(0, 0, 0, 0.9);
+    background:transparent url('http://placehold.it/800x300') no-repeat center center /cover;
+}
+
 .contacts h1{
     color: orange;
 }
@@ -436,9 +458,21 @@ section {
     color: white;
 }
 
+.contactinfo i{
+    color: orange;
+}
+
+.social-lists i{
+    color: white;
+}
+
+.social-lists i:hover{
+    color: orange;
+}
+
 .footer{
     background-color: black;
-    color: white;
+    color: grey;
 }
 
 .footer p{
@@ -447,5 +481,13 @@ section {
 }
 
 .footer a{
-    color: grey;
+    color: white;
+}
+
+.footer i{
+    padding: 5px;
+}
+
+.footer i:hover, .footer a:hover{
+    color: orange;
 }

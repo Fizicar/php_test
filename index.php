@@ -18,7 +18,7 @@
   <script src="https://use.fontawesome.com/ffb6023ab4.js"></script>
   <link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-toggleable-md" id="navbar1">
@@ -124,7 +124,7 @@
     <section class="bigPicture">
     <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1>We Provide the Best Care for Your Pets</h1> 
+    <h1 class="font"><b>We Provide the Best Care for Your Pets</b></h1> 
     <p>The best pets clinic at Melbourne, more than 20.000+ customers happy.</p> 
     <p><a class="btn btn-md btn-round" id="button1" href="#" role="button">More about us</a></p>
   </div>
@@ -139,16 +139,16 @@
 </div>
 <div class="col">
     <div class="main_service_content">
-    <h1>Welcome to Pets Cate</h1>
+    <h1><b class="font" style="color:orange;">Welcome to Pets Care</b></h1>
     <h2>Your pet's health and well-being are out top priority.</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore omnis voluptas beatae eligendi quisquam, molestiae consectetur ab magnam sed voluptatem!</p>
     <div class="row">                            
     <div class="col-6">
-                <div class="single_service">
-                    <div class="single_service_icon">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <div class="single_service row">
+                    <div class="single_service_icon col-2">
+                        <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="single_service_content">
+                    <div class="single_service_content col-10">
                         <h3>Pet Grooming</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
                             suscipit vero. Quam, dolorem!</p>
@@ -156,11 +156,11 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="single_service">
-                    <div class="single_service_icon">
-                        <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <div class="single_service row">
+                    <div class="single_service_icon col-2">
+                        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="single_service_content">
+                    <div class="single_service_content col-10">
                         <h3>Pet Hotel</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
                             suscipit vero. Quam, dolorem!</p>
@@ -170,11 +170,11 @@
 </div>
 <div class="row">
             <div class="col-6">
-                <div class="single_service">
-                    <div class="single_service_icon">
-                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                <div class="single_service row">
+                    <div class="single_service_icon col-2">
+                        <i class="fa fa-eyedropper fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="single_service_content">
+                    <div class="single_service_content col-10">
                         <h3>Vaccination</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
                             suscipit vero. Quam, dolorem!</p>
@@ -183,11 +183,11 @@
             </div>
             <div class="border_divider"></div>
             <div class="col-6">
-                <div class="single_service">
-                    <div class="single_service_icon">
-                        <i class="fa fa-book" aria-hidden="true"></i>
+                <div class="single_service row">
+                    <div class="single_service_icon col-2">
+                        <i class="fa fa-medkit fa-2x" aria-hidden="true"></i>
                     </div>
-                    <div class="single_service_content">
+                    <div class="single_service_content col-10">
                         <h3>Pet Care</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus eum deserunt
                             quidem provident error voluptatum.</p>
@@ -214,28 +214,28 @@
                              <div class="single_counter_two_right">
                              <i class="fa fa-male" aria-hidden="true"></i>
                                  <h2 class="statistic-counter_two">2700</h2>
-                                 <p>Happy Customers</p>
+                                 <p class="font">Happy Customers</p>
                              </div>
                          </div><!-- End off col-sm-3 -->
                          <div class="col-sm-3 col-xs-12">
                              <div class="single_counter_two_right">
                              <i class="fa fa-github" aria-hidden="true"></i>
                                  <h2 class="statistic-counter_two">4520</h2>
-                                 <p>Pets Cure</p>
+                                 <p class="font">Pets Cure</p>
                              </div>
                          </div><!-- End off col-sm-3 -->
                          <div class="col-sm-3 col-xs-12">
                              <div class="single_counter_two_right">
                              <i class="fa fa-users" aria-hidden="true"></i>
                                  <h2 class="statistic-counter_two">15</h2>
-                                 <p>Team Doctors</p>
+                                 <p class="font">Team Doctors</p>
                              </div>
                          </div><!-- End off col-sm-3 -->
                          <div class="col-sm-3 col-xs-12">
                              <div class="single_counter_two_right">
                              <i class="fa fa-trophy" aria-hidden="true"></i>
                                  <h2 class="statistic-counter_two">21</h2>
-                                 <p>Awards Winner</p>
+                                 <p class="font">Awards Winner</p>
                              </div>
                          </div>
                      </div><!-- End off col-sm-3 -->
@@ -249,7 +249,7 @@
 <section class="services">
     <!-- Page Content -->
     <div class="container">
-        <h1 class="text-center">Our Services</h1>
+        <h1 class="text-center font" style="color:orange;"><b>Our Services</b></h1>
         <p class="text-center">Your pet's health and well-being are our top priority.</p>
       <!-- Page Features -->
       <div class="row text-center">
@@ -257,7 +257,7 @@
           <div class="card">
             <img class="card-img-top" src="http://placehold.it/300x300" alt="">
             <div class="card-body">
-              <h4 class="card-title">Pet Barber Services</h4>
+              <h4 class="card-title"><b>Pet Barber Services</b></h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
           </div>
@@ -266,7 +266,7 @@
           <div class="card">
             <img class="card-img-top" src="http://placehold.it/300x300" alt="">
             <div class="card-body">
-              <h4 class="card-title">Vaccination Supply</h4>
+              <h4 class="card-title"><b>Vaccination Supply</b></h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
             </div>
           </div>
@@ -275,7 +275,7 @@
           <div class="card">
             <img class="card-img-top" src="http://placehold.it/300x300" alt="">
             <div class="card-body">
-              <h4 class="card-title">Pet Analysist</h4>
+              <h4 class="card-title"><b>Pet Analysist</b></h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
             </div>
           </div>
@@ -288,13 +288,13 @@
     </div>
     <!-- /.container -->
 </div>
-
+</section>
 
     <section class="bigcat">
     <div class="card card-inverse">
   <img class="card-img" src="http://placehold.it/900x500" alt="Card image">
   <div class="card-img-overlay">
-    <h4 class="card-title">Do Pets Have Allergies?</h4>
+    <h4 class="card-title font" style="color:orange;"><b>Do Pets Have Allergies?</b></h4>
     <p class="card-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis harum minima, eius eligendi blanditiis explicabo expedita voluptates quam animi repellendus?</b></p>
     <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae nulla hic assumenda quis enim, libero saepe totam architecto vero non, at incidunt doloribus aperiam natus quia amet similique, corporis soluta.</p>
     <p class="card-text"><img src="http://placehold.it/200x200" alt=""></p>
@@ -309,7 +309,7 @@
 					        <div class="row">
 				                <div class="col-lg-12 col-md-12 col-sm-12 ">
 				                    <div class="slogan-section animated fadeInUp clearfix ae-animation-fadeInUp">
-				                        <h2>Meet Veterinary</h2><p>Your pet's health and well-being are our top priority.</p>                    </div>
+				                        <h2 class="font" style="color:orange;"><b>Meet Veterinary</b></h2><p>Your pet's health and well-being are our top priority.</p>                    </div>
 				                </div>
 					    	</div>
 					        <div class="row">
@@ -329,7 +329,7 @@
 								            </figure>
 
 						                    <div class="text-content">
-						                        <h5>Dr. John Doel</h5>
+						                        <h5 class="font">Dr. John Doel</h5>
 						                        <!-- <div class="for-border"></div> -->
 						                        <h5><small>Veterinary</small></h5>
 						                    </div>
@@ -351,7 +351,7 @@
 								            </figure>
 
 						                    <div class="text-content">
-						                        <h5>Dr. Mellisa Doel</h5>
+						                        <h5 class="font">Dr. Mellisa Doel</h5>
 						                        <!-- <div class="for-border"></div> -->
 						                        <h5><small>Veterinary</small></h5>
 						                    </div>
@@ -373,7 +373,7 @@
 								            </figure>
 
 						                    <div class="text-content">
-						                        <h5>Dr. Aldizza Doel</h5>
+						                        <h5 class="font">Dr. Aldizza Doel</h5>
 						                        <!-- <div class="for-border"></div> -->
 						                        <h5><small>Veterinary</small></h5>
 						                    </div>
@@ -390,7 +390,7 @@
 <img src="http://via.placeholder.com/500x500" class="float-right" alt="">
 <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
 <div class="testimonial4_header">
-    <h4>What Customer's Say</h4>
+    <h4 class="font" style="color:orange;"><b>What Customer's Say</b></h4>
     <p>Your pet's health and well-being are top priority.</p>
 </div>
 <ol class="carousel-indicators">
@@ -403,7 +403,7 @@
         <div class="testimonial4_slide">
             <img src="http://via.placeholder.com/100x100" class="img-circle img-responsive" />
             <p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
-            <h4>Ernest Doel</h4>
+            <h4 class="font" style="color:orange;">Ernest Doel</h4>
         </div>
     </div>
 </div>
@@ -413,7 +413,7 @@
 <section class="fromarticles">
     <!-- Page Content -->
     <div class="container">
-        <h1 class="text-center">From Our Articles</h1>
+        <h1 class="text-center font" style="color:orange;"><b>From Our Articles</b></h1>
         <p class="text-center">Your pet's health and well-being are our top priority.</p>
       <!-- Page Features -->
       <div class="row text-center">
@@ -449,6 +449,7 @@
     </div>
     <!-- /.container -->
 </div>
+</section>
 
 <section class="specialoffer">
     <div class="jumbotron jumbotron-fluid">
@@ -471,7 +472,7 @@
 <section class="awards">
 <img src="http://via.placeholder.com/300x200" class="float-right" alt="">
 <div class="container">
-<h1 class="text-center">Our Awards</h1>
+<h1 class="text-center font" style="color:orange;"><b>Our Awards</b></h1>
     <p class="text-center">Your pet's health and well-being are our top priority.</p>
     <div class="row">
   <div class="col-md-12 col-sm-12 col-xs-12">      
@@ -495,7 +496,7 @@
 </section>
 
 
-<section class="contacts" style="background:transparent url('http://placehold.it/800x300') no-repeat center center /cover">
+<section class="contacts">
 <div class="container">
 <div class="row">
 <div class="col-4">
@@ -516,7 +517,7 @@
 </div>
 <div class="col-4">
 <div class="row">
-<h1>Openin Hours</h1>
+<h1 class="font">Opening Hours</h1>
 </div>
 <div class="row">
     <p>Our support available to help you 24 hours a day. We provide you our best.</p>
@@ -529,27 +530,27 @@
 </div>
 <div class="col-4">
 <div class="row">
-    <h1>Contact Info</h1>
+    <h1 class="font">Contact Info</h1>
 </div>
-<div class="row">
+<div class="row contactinfo">
     <div class="col-2">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
     </div>
     <div class="col-10">
         <p>212 King Street, Melbourne, VC, AUS 52145</p>
     </div>
 </div>
-<div class="row">
+<div class="row contactinfo">
     <div class="col-2">
-        <i class="fa fa-phone" aria-hidden="true"></i>
+        <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
     </div>
     <div class="col-10">
         <p>Emergency Call: (+62)585464484</p>
 </div>
 </div>
-<div class="row">
+<div class="row contactinfo">
     <div class="col-2">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
     </div>
     <div class="col-10">
         <p>Email: mail@hellopets.com</p>
@@ -562,8 +563,8 @@
 </section>
 
 <footer class="footer">
-<p>Rometheme &copy; All rights reserved. <a href="">Terms of Use</a> and <a href="">Privacy Policy</a></p>
-<div class="float-right">
+<b style="color:white;">Rometheme</b> &copy; All rights reserved. <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>
+<div class="float-right" style="margin-right:100px;">
 <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
