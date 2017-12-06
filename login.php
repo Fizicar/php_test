@@ -19,8 +19,6 @@ if(isset($_POST['uname']) and isset($_POST['pwd']) and !empty($_POST['uname']) a
         if ($uname == $row['username'] and $pwd == $dbpassword){
             $id = $row['id'];
             $_SESSION['id'] = $id;
-            header("Location: admin.php");
-            exit();
         }else {
             echo " The information providet are invalid";
         };
