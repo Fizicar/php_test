@@ -31,7 +31,7 @@
                                 $('#success').fadeIn(1000).append('<p>' + data.posted + '</p>'); //If successful, than throw a success message
                                 window.location = "http://localhost/php_test/admin.php";}
                                 else{
-                                    $('.throw_error').fadeIn(1000).html("Incorect Entry");
+                                    $('.throw_error').fadeIn(1000).html("We could not find yout username");
                                 }
 		    				}
 		    			}
