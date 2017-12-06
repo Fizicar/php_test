@@ -13,7 +13,7 @@
     $pwd1 = $_POST['pwd1'];
     $pwd2 = $_POST['pwd2'];
 
-    if ($pwd1 === $pwd2){
+            if ($pwd1 === $pwd2){
         
                 $getinfo = "SELECT * FROM `admin` WHERE username = '$uname'";
                 $res = mysqli_query($conn, $getinfo);
@@ -32,19 +32,20 @@
                     if(!mysqli_query($conn, $sql)){
                         $form_data['success'] = true;
                         $form_data['posted'] = 'There was a problem';
-                        $form_data['confirm'] = 4;;  
+                        $form_data['confirm'] = 2;
+                        echo json_encode($form_data);
                     }else{
                         $form_data['success'] = true;
-                        $form_data['posted'] = 'You can login now.';
-                        $form_data['confirm'] = 1;;
+                        $form_data['posted'] = 'Data Was Posted Successfully';
+                        $form_data['confirm'] = 1;
                     }
                 }
-        
+                echo json_encode($form_data);
             }else{
                 $form_data['success'] = true;
-                $form_data['posted'] = 'your passwords did not match';
-                $form_data['confirm'] = 3;
+                $form_data['posted'] = 'Your passwords did not match';
+                $form_data['confirm'] = 2;
+                echo json_encode($form_data);
             }
-
-            echo json_encode($form_data); 
+            
             ?>
