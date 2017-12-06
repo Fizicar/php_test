@@ -1,62 +1,59 @@
-<?php
-require 'includes/connection.php';
-
-if (isset($_POST['fname']) and isset($_POST['uname']) and isset($_POST['pwd1']) and isset($_POST['pwd2'])
-and !empty($_POST['fname']) and !empty($_POST['uname']) and !empty($_POST['pwd1']) and !empty($_POST['pwd2']))
-{
-    $fname = mysqli_real_escape_string($conn, $_POST['fname']);
-    $uname = mysqli_real_escape_string($conn, $_POST['uname']);
-    $pwd1 = $_POST['pwd1'];
-    $pwd2 = $_POST['pwd2'];
-
-    if ($pwd1 === $pwd2){
-
-        $getinfo = "SELECT * FROM `admin` WHERE username = '$uname'";
-        $res = mysqli_query($conn, $getinfo);
-        $row = mysqli_fetch_assoc($res);
-
-        if (mysqli_num_rows($res)>0){
-            echo "that username is taken";
-        } else{
-            
-            $pwd1 = PASSWORD_HASH($pwd1, PASSWORD_DEFAULT);
-
-            $sql = "INSERT INTO `admin` (ime_prezime, username, sifra) VALUES ('$fname','$uname','$pwd1')";
-
-            if(!mysqli_query($conn, $sql)){
-                echo "There was a problem";  
-            }else{
-                header("Location: login.php");
-            }
-        }
-
-    }else{
-        echo "yout pasworts did not match";
-    }
-} 
-
-
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
-</head>
-<body>
-<h3>Register</h3><br> 
-    <form action="register.php" method="POST"><br>
-    <input type="text" name="fname" placeholder="Ime i Prezime"><br>
-    <input type="text" name="uname" placeholder="User Name"><br>
-    <input type="password" name="pwd1" placeholder="Password"><br>
-    <input type="password" name="pwd2" placeholder="Re-Enter Password"><br><br><br>
-    <input type="submit" value="Register">
-    </form>
-</body>
+	<head>
+		<title>Simple Ajax Form</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function() {
+		    	$('form').submit(function(event) { //Trigger on form submit
+		    		$('#name + .throw_error').empty(); //Clear the messages first
+		    		$('#success').empty();
+		    
+		    		var postForm = { //Fetch form data
+		    			'register_uname' 	: $('input[name=register_uname]').val(), //Store name fields value
+                        'register_pwd1' 	: $('input[name=register_pwd1]').val(),
+                        'register_pwd2' : $('input[name=register_pwd2]').val(),
+                        'register_fname' : $('input[name=register_fname]').val()
+		    		};
+		    		$.ajax({ //Process the form using $.ajax()
+		    			type 		: 'POST', //Method type
+		    			url 		: 'api.php', //Your form processing file url
+		    			data 		: postForm, //Forms name
+		    			dataType 	: 'json',
+		    			success 	: function(data) {
+							if (!data.success) { //If fails
+								console.log("there was an error")
+							}
+							else{
+								if(data.confirm == 1){
+								window.location = "http://localhost/php_test/admin.php";}
+								else if(data.confirm == 2){$('.throw_error').fadeIn(1000).html(data.posted);}
+								else if(data.confirm == 3){$('.throw_error').fadeIn(1000).html(data.posted);}
+								else {$('.throw_error').fadeIn(1000).html(data.posted);}
+								
+							}
+		    			}
+		    		})
+					
+					;
+		    	    event.preventDefault(); //Prevent the default submit
+		    	});
+		    });
+		</script>
+	</head>
+	<body>
+    <h3>Register</h3><br> 
+	<form method="post" name="postForm">
+        <input type="text" name="register_fname" placeholder="Ime i Prezime"><br>
+        <input type="text" name="register_uname" placeholder="User Name"><br>
+        <input type="password" name="register_pwd1" placeholder="Password"><br>
+        <input type="password" name="register_pwd2" placeholder="Re-Enter Password"><br><br><br>
+        <input type="submit" value="Register">
+        </form>
+		<div class="throw_error">
+		
+		
+		</div>
+    </body>
 </html>
