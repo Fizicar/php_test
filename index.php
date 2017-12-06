@@ -13,6 +13,8 @@
 <html>
 <head>
   <title>PetsCare</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
   <script src="https://use.fontawesome.com/ffb6023ab4.js"></script>
   <link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -287,6 +289,7 @@
     <!-- /.container -->
 </div>
 
+
     <section class="bigcat">
     <div class="card card-inverse">
   <img class="card-img" src="http://placehold.it/900x500" alt="Card image">
@@ -383,7 +386,190 @@
 					<!-- //The Team -->
 </section>
 
+<section id="carousel">        		
+<img src="http://via.placeholder.com/500x500" class="float-right" alt="">
+<div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+<div class="testimonial4_header">
+    <h4>What Customer's Say</h4>
+    <p>Your pet's health and well-being are top priority.</p>
+</div>
+<ol class="carousel-indicators">
+    <li data-target="#testimonial4" data-slide-to="0" class="active"></li>
+    <li data-target="#testimonial4" data-slide-to="1"></li>
+    <li data-target="#testimonial4" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+    <div class="item active">
+        <div class="testimonial4_slide">
+            <img src="http://via.placeholder.com/100x100" class="img-circle img-responsive" />
+            <p>Lorem ipsum dolor sit amet adipiscing elit am nibh unc varius facilisis eros ed erat in in velit quis arcu ornare laoreet urabitur.</p>
+            <h4>Ernest Doel</h4>
+        </div>
+    </div>
+</div>
+</div>
+</section>
 
+<section class="fromarticles">
+    <!-- Page Content -->
+    <div class="container">
+        <h1 class="text-center">From Our Articles</h1>
+        <p class="text-center">Your pet's health and well-being are our top priority.</p>
+      <!-- Page Features -->
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x300" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Dog Sitting on the Floor</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x300" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Persian Cat with New Adopt</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://placehold.it/300x300" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Make Pet Comfortable</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+
+<section class="specialoffer">
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+<div class="row">
+    <div class="col-6">
+        <img src="http://placehold.it/300x400">
+</div>
+<div class="col-6">      
+    <h1>We Provide the Best Care for Your Pets</h1>
+    <h2>Get Discount 10% Off Pet Food</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed labore. Molestiae maiores provident aspernatur deleniti tenetur minima eius placeat.</p> 
+    <p><a class="btn btn-md btn-round" id="button3" href="#" role="button">Shop Now</a></p>
+</div>
+</div>
+</div>
+</div>            
+</section>
+
+<section class="awards">
+<img src="http://via.placeholder.com/300x200" class="float-right" alt="">
+<div class="container">
+<h1 class="text-center">Our Awards</h1>
+    <p class="text-center">Your pet's health and well-being are our top priority.</p>
+    <div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">      
+                 <div class="row">
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                   <div class="col-md-2 col-xs-4"><a><img src="http://placehold.it/100x100" alt="Image" style="height:80px;"></a></div>
+                 </div><!--.row-->
+ </div>
+</div>
+</section>
+
+<section class="appointments">
+<h1>Get 30% Off for the First Time Appointment</h1>
+<p>Contact us now and make an apointment today.
+<a class="btn btn-md btn-round float-right" id="button2" href="#" role="button">Appointment Now!</a>
+</p>
+</section>
+
+
+<section class="contacts" style="background:transparent url('http://placehold.it/800x300') no-repeat center center /cover">
+<div class="container">
+<div class="row">
+<div class="col-4">
+<div class="row">
+<img src="http://placehold.it/200x100" alt="">
+</div>
+<div class="row">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam tempore nihil dignissimos pariatur dolores deleniti non iure placeat quisquam voluptatum.</p>
+</div>
+<div class="row">
+<ul class="list-inline social-lists animate">
+    <li><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-cc-stripe" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="col-4">
+<div class="row">
+<h1>Openin Hours</h1>
+</div>
+<div class="row">
+    <p>Our support available to help you 24 hours a day. We provide you our best.</p>
+    <p>
+        Mon-Fri: 8am-20pm <br>
+        Saturday: 9am-20pm <br>
+        Sunday: we are closed
+    </p>
+</div>
+</div>
+<div class="col-4">
+<div class="row">
+    <h1>Contact Info</h1>
+</div>
+<div class="row">
+    <div class="col-2">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+    </div>
+    <div class="col-10">
+        <p>212 King Street, Melbourne, VC, AUS 52145</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+    </div>
+    <div class="col-10">
+        <p>Emergency Call: (+62)585464484</p>
+</div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+    </div>
+    <div class="col-10">
+        <p>Email: mail@hellopets.com</p>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<p>Rometheme &copy; All rights reserved. <a href="">Terms of Use</a> and <a href="">Privacy Policy</a></p>
+<div class="float-right">
+<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+</div>
+</footer>
 
 <script src="assets/javascript/main.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
