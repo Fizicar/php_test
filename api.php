@@ -47,8 +47,7 @@ if(isset($_POST['login_uname']) and isset($_POST['login_pwd'])){
     
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
 if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset($_POST['register_pwd1']) and isset($_POST['register_pwd2'])){        
     
     $errors = array(); //To store errors
@@ -96,5 +95,14 @@ if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset
                 echo json_encode($form_data);
             }
         }
-    
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+if(isset($_POST['logout'])){
+    $logout_data = array();
+    session_start();
+    session_destroy();
+    $logout['confirm'] == 1;
+    echo $logout_data;
+}
     ?>
