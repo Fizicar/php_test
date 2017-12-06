@@ -11,14 +11,14 @@
 		    		$('#success').empty();
 		    
 		    		var postForm = { //Fetch form data
-		    			'uname' 	: $('input[name=uname]').val(), //Store name fields value
-                        'pwd1' 	: $('input[name=pwd1]').val(),
-                        'pwd2' : $('input[name=pwd2]').val(),
-                        'fname' : $('input[name=fname]').val()
+		    			'register_uname' 	: $('input[name=register_uname]').val(), //Store name fields value
+                        'register_pwd1' 	: $('input[name=register_pwd1]').val(),
+                        'register_pwd2' : $('input[name=register_pwd2]').val(),
+                        'register_fname' : $('input[name=register_fname]').val()
 		    		};
 		    		$.ajax({ //Process the form using $.ajax()
 		    			type 		: 'POST', //Method type
-		    			url 		: 'fake_register_proces.php', //Your form processing file url
+		    			url 		: 'api.php', //Your form processing file url
 		    			data 		: postForm, //Forms name
 		    			dataType 	: 'json',
 		    			success 	: function(data) {
@@ -45,10 +45,10 @@
 	<body>
     <h3>Register</h3><br> 
 	<form method="post" name="postForm">
-        <input type="text" name="fname" placeholder="Ime i Prezime"><br>
-        <input type="text" name="uname" placeholder="User Name"><br>
-        <input type="password" name="pwd1" placeholder="Password"><br>
-        <input type="password" name="pwd2" placeholder="Re-Enter Password"><br><br><br>
+        <input type="text" name="register_fname" placeholder="Ime i Prezime"><br>
+        <input type="text" name="register_uname" placeholder="User Name"><br>
+        <input type="password" name="register_pwd1" placeholder="Password"><br>
+        <input type="password" name="register_pwd2" placeholder="Re-Enter Password"><br><br><br>
         <input type="submit" value="Register">
         </form>
 		<div class="throw_error">
