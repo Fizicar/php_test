@@ -1,10 +1,12 @@
 <?php 
-//require_once('api.php');
-//require_once('admin.php');
-//require_once('login.php');
-//require_once('register.php');
-//require_once('includes/connection.php');
-//require_once('includes/functions.php');
+/*
+require('api.php');
+require('admin.php');
+require('login.php');
+require('register.php');
+require_once('includes/connection.php');
+require('includes/functions.php');
+*/
 ?>
 <?php
 
@@ -553,10 +555,10 @@
         </div>
     </footer>
 
-    <script src="assets/javascript/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
 </body>
 </html>
 <?php if(isset($database)) { $database->close_connection(); } ?>

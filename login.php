@@ -4,6 +4,10 @@
 		<title>Simple Ajax Form</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
+		<script src="https://use.fontawesome.com/ffb6023ab4.js"></script>
+		<link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 		<script>
 			$(document).ready(function() {
 		    	$('form').submit(function(event) { //Trigger on form submit
@@ -41,6 +45,7 @@
 		</script>
 	</head>
 	<body>
+<!--
 		<form method="post" name="postForm">
 			<ul>
 				<li>
@@ -51,6 +56,32 @@
 				</li>
 			</ul>
 			<input type="submit" value="Send" />
+		</form>
+		<div id="success"></div>
+-->
+		<form class="formlogin text-center" method="post" name="postForm">
+			<div class="row">
+				<div class="col-2 offset-5">
+					<h1>Login</h1>
+					<br>
+					<div class="input-group margin-bottom-sm">
+						<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>
+						<input class="form-control" type="text" placeholder="username" name="login_uname" id="login_uname">
+					</div>
+					<br>
+					<div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+						<input class="form-control" type="password" placeholder="password" name="login_pwd" id="login_pwd">
+					</div>
+					<br>
+					<span class="throw_error"></span>
+					<button class="btn btn-md btn-round text-center" id="button4" type="submit"><div class="pull-left">login in</div>
+						<i class="fa fa-sign-in pull-right"></i>
+					</button>	
+					<br><br>
+					<p>Forgot your password?</p>
+				</div>
+			</div>
 		</form>
 		<div id="success"></div>
 	</body>

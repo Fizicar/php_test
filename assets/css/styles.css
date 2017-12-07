@@ -221,24 +221,34 @@ color:white;
       z-index: 1;
   }
   
-  .home-doctors .common-doctor li a {
-      color: white;
+  .home-doctors li a {
+      background-color: white;
       padding: 0.75em;
   }
   
+  .home-doctors li a:hover {
+    background-color:black;
+    color:white;
+    padding: 0.75em;
+}
+
   .home-doctors li i {
     margin-top: -2em;
     opacity: 1;
-    background-color:white;
-    color:white;
+    color:black;
 }
 
-.home-doctors li a:hover,.home-doctors li i:hover {
+.home-doctors li i:hover {
+    margin-top: -2em;
+    opacity: 1;
+    color:white!important;
+}
+
+.common-doctor li:hover {
       margin-top: -2em;
       opacity: 1;
-      background-color:white;
-      color:white;
-  }
+}
+
   
   /*=============== //Home-team ===============*/
 
@@ -502,4 +512,24 @@ section {
 
 .footer i:hover, .footer a:hover{
     color: orange;
+}
+
+.formlogin{
+    background-color: #283d6e;
+    color: white;
+}
+
+.formlogin .input-group-addon,.formlogin .form-control{
+    background-color: #405177;
+}
+
+.formlogin i, .formlogin .form-control{
+    color:rgb(223, 223, 223);
+}
+
+#button4{
+    border: 1px solid #405177;
+    background-color: #283d6e;
+    color: white;
+    width: 100%;
 }
