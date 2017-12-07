@@ -533,3 +533,8 @@ section {
     color: white;
     width: 100%;
 }
+
+.opis{
+    width:350px;
+    border:1px solid black;
+}
