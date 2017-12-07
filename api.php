@@ -48,7 +48,7 @@ if(isset($_POST['login_uname']) and isset($_POST['login_pwd'])){
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  
-if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset($_POST['register_pwd1']) and isset($_POST['register_pwd2'])){        
+if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset($_POST['register_pwd1']) and isset($_POST['register_pwd2']) and !empty($_POST['register_fname']) and !empty($_POST['register_uname']) and !empty($_POST['register_pwd1']) and !empty($_POST['register_pwd2'])){        
     
     $errors = array(); //To store errors
     $form_data = array(); //Pass back the data to `form.php`
@@ -96,13 +96,36 @@ if(isset($_POST['register_fname']) and isset($_POST['register_uname']) and isset
             }
         }
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!!!REGISTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!Log-OUT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 if(isset($_POST['logout'])){
-    $logout_data = array();
+    $errors = array(); //To store errors
+    $form_data = array(); //Pass back the data to `form.php`
+
     session_start();
     session_destroy();
-    $logout['confirm'] == 1;
-    echo $logout_data;
+    $form_data['confirm'] = 1;
+    echo json_encode($form_data);
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!Admin izgled bez uploade!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+if(isset($_POST['naslov']) and isset($_POST['podnaslov']) and isset($_POST['section_id']) and isset($_POST['slika_1']) and isset($_POST['slika_2']) and isset($_POST['slika_3']) and isset($_POST['text_1']) and isset($_POST['text_2']) and isset($_POST['text_3']) and isset($_POST['text_4']) and isset($_POST['text_5'])){
+    $id = $_POST['section_id'];
+    $naslov = $_POST['naslov'];
+    $p_naslov = $_POST['p_naslov'];
+    $slika_1 = $_POST['slika_1'];
+    $slika_2 = $_POST['slika_2'];
+    $slika_3 = $_POST['slika_3'];
+    $text_1 = $_POST['text_1'];
+    $text_2 = $_POST['text_2'];
+    $text_3 = $_POST['text_3'];
+    $text_4 = $_POST['text_4'];
+    $text_5 = $_POST['text_5'];
+    
+
+    
 }
     ?>

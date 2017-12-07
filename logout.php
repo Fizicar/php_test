@@ -10,37 +10,16 @@
 	<head>
 		<title>Simple Ajax Form</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-		<script>
-			$(document).ready(function() {
-		    	$('#logout').click(function(event) { //Trigger on form submit		    
-		    		var postForm = { //Fetch form data
-		    			'logout' 	: 1, //Store name fields value
-		    		};
-                    console.log(postForm);
-		    		$.ajax({ //Process the form using $.ajax()
-		    			type 		: 'POST', //Method type
-		    			url 		: 'api.php', //Your form processing file url
-		    			data 		: postForm, //Forms name
-		    			dataType 	: 'json',
-		    			success 	: function(data) {
-
-								if(data.confirm == 1){
-								window.location = "http://localhost/php_test/admin.php";}
-
-								
-		    			};
-		    		})
-		    	    event.preventDefault(); //Prevent the default submit
-		    	});
-		    });
-		</script>
 	</head>
 	<body>
-		<form method="post" name="postForm">
-			<button id="logout" type="submit" method="post" value="1" name="logut">Logout</button>
-		</form>
+
+		<button id=logout>logout</button>
         
 		<div id="success"></div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="assets/javascript/main.js"></script>
 	</body>
 </html>
