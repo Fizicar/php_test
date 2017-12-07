@@ -200,32 +200,32 @@
     <section id="counter_two" class="counter_two">
         <div class="overlay">
             <div class="container">
-                <div class="row">
+                <div class="row-12">
                     <div class="main_counter_two sections text-center">
-                        <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-12">
                             <div class="row">
-                                <div class="col-sm-3 col-xs-12">
+                                <div class="col-3">
                                     <div class="single_counter_two_right">
                                     <i class="fa fa-male" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">2700</h2>
                                         <p class="font">Happy Customers</p>
                                     </div>
                                 </div><!-- End off col-sm-3 -->
-                                <div class="col-sm-3 col-xs-12">
+                                <div class="col-3">
                                     <div class="single_counter_two_right">
                                     <i class="fa fa-github" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">4520</h2>
                                         <p class="font">Pets Cure</p>
                                     </div>
                                 </div><!-- End off col-sm-3 -->
-                                <div class="col-sm-3 col-xs-12">
+                                <div class="col-3">
                                     <div class="single_counter_two_right">
                                     <i class="fa fa-users" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">15</h2>
                                         <p class="font">Team Doctors</p>
                                     </div>
                                 </div><!-- End off col-sm-3 -->
-                                <div class="col-sm-3 col-xs-12">
+                                <div class="col-3">
                                     <div class="single_counter_two_right">
                                     <i class="fa fa-trophy" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">21</h2>
@@ -310,10 +310,10 @@
                     <div class="col-lg-4 col-md-4 col-sm-6  text-center doc-item">
                         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
                             <ul class="list-inline social-lists animate">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <figure>
                                 <img width="670" height="500" src="http://placehold.it/300x300" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
@@ -329,10 +329,10 @@
                     <div class="col-lg-4 col-md-4 col-sm-6  text-center doc-item">
                         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
                             <ul class="list-inline social-lists animate">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <figure>
                                 <img width="670" height="500" src="http://placehold.it/300x300" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
@@ -348,10 +348,10 @@
                     <div class="col-lg-4 col-md-4 col-sm-6  text-center doc-item">
                         <div class="common-doctor animated fadeInUp clearfix ae-animation-fadeInUp">
                             <ul class="list-inline social-lists animate">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <figure>
                                 <img width="670" height="500" src="http://placehold.it/300x300" class="doc-img animate attachment-gallery-post-single wp-post-image" alt="doctor-2"> 
@@ -474,7 +474,7 @@
     <section class="appointments">
         <h1>Get 30% Off for the First Time Appointment</h1>
         <p>Contact us now and make an apointment today.
-        <a class="btn btn-md btn-round float-right" id="button2" href="#" role="button">Appointment Now!</a>
+            <a class="btn btn-md btn-round float-right" id="button2" href="#" role="button">Appointment Now!</a>
         </p>
     </section>
 
@@ -490,10 +490,10 @@
                     </div>
                     <div class="row">
                         <ul class="list-inline social-lists animate">
-                            <li><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-cc-stripe" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-cc-mastercard" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-cc-paypal" aria-hidden="true"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fa fa-cc-stripe" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
