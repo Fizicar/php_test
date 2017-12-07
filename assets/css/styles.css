@@ -33,6 +33,10 @@ color:white;
     color: black;
 }
 
+.bigPicture{
+    margin-top:-100px;
+}
+
 .bigPicture>.jumbotron {
     background-image: url("http://via.placeholder.com/800x500.png");    
     background-size: cover;
@@ -64,7 +68,8 @@ color:white;
 .overlay {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
-    height: 750px;
+    height: 300px;
+    margin-top: -100px;
 }
 
 .welcome i{
@@ -113,7 +118,7 @@ color:white;
     }
 }
 
-.card-text{
+.services .card-text,.fromarticles .card-text,.team .card-body{
     border-bottom: 2px solid orange;
 }
 
@@ -126,7 +131,7 @@ color:white;
     color: rgb(46, 29, 0);
 }
 
-.card-title,.card-text{
+.bigcat .card-title,.bigcat .card-text{
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -217,15 +222,21 @@ color:white;
   }
   
   .home-doctors .common-doctor li a {
-      background: white;
-      color: grey;
+      color: white;
       padding: 0.75em;
   }
   
-  .social-lists>li>a:hover {
+  .home-doctors li i {
+    margin-top: -2em;
+    opacity: 1;
+    background-color:white;
+    color:white;
+}
+
+.home-doctors li a:hover,.home-doctors li i:hover {
       margin-top: -2em;
       opacity: 1;
-      background-color:grey;
+      background-color:white;
       color:white;
   }
   
@@ -466,7 +477,7 @@ section {
     color: white;
 }
 
-.social-lists i:hover{
+.social-lists li i:hover{
     color: orange;
 }
 
@@ -485,6 +496,7 @@ section {
 }
 
 .footer i{
+    color:white;
     padding: 5px;
 }
 
