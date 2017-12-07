@@ -1,4 +1,6 @@
-<?php 
+<?php
+//po potrebi ukloniti komentare iz donjeg bloka
+
 /*
 require('api.php');
 require('admin.php');
@@ -7,9 +9,6 @@ require('register.php');
 require_once('includes/connection.php');
 require('includes/functions.php');
 */
-?>
-<?php
-
 ?>
 
 <html>
@@ -23,6 +22,7 @@ require('includes/functions.php');
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>
+    <!--tri navbara na vrhu strane -->
     <nav class="navbar navbar-toggleable-md" id="navbar1">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,7 @@ require('includes/functions.php');
             </div>
         </div>
     </nav>
+    <!--prvi navbar -->
     <nav class="navbar navbar-toggleable-md" id="navbar2">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +56,7 @@ require('includes/functions.php');
             </div>
         </div>
     </nav>
+    <!--drugi navbar -->
     <nav class="navbar navbar-toggleable-md" id="navbar3">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,12 +114,16 @@ require('includes/functions.php');
                         <a class="nav-link" href="#">CONTACTS</a>
                     </li>
                 </ul>
-            <form class="form-inline my-2 my-md-0" style="color:black;">
-            Open Hours: Mon-Fri: 09:00am - 20:00pm
-            </form>
+                <form class="form-inline my-2 my-md-0" style="color:black;">
+                Open Hours: Mon-Fri: 09:00am - 20:00pm
+                </form>
+            </div>
         </div>
     </nav>
+    <!--treci navbar -->
+    <!--kraj navbara -->
 
+    <!--sekcija bigPicture -->
     <section class="bigPicture">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -127,78 +133,81 @@ require('includes/functions.php');
             </div>
         </div>            
     </section>
+    <!--kraj sekcije bigPictrure -->
 
+    <!--sekcija welcome -->
     <section class="welcome">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <img src="http://via.placeholder.com/400x400">
                 </div>
-            <div class="col">
-                <div class="main_service_content">
-                    <h1><b class="font" style="color:orange;">Welcome to Pets Care</b></h1>
-                    <h2>Your pet's health and well-being are out top priority.</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore omnis voluptas beatae eligendi quisquam, molestiae consectetur ab magnam sed voluptatem!</p>
-                    <div class="row">                            
-                        <div class="col-6">
-                            <div class="single_service row">
-                                <div class="single_service_icon col-2">
-                                    <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
-                                </div>
-                                <div class="single_service_content col-10">
-                                    <h3>Pet Grooming</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
-                                        suscipit vero. Quam, dolorem!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="single_service row">
-                                <div class="single_service_icon col-2">
-                                    <i class="fa fa-home fa-2x" aria-hidden="true"></i>
-                                </div>
-                                <div class="single_service_content col-10">
-                                    <h3>Pet Hotel</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
-                                        suscipit vero. Quam, dolorem!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="single_service row">
-                                <div class="single_service_icon col-2">
-                                    <i class="fa fa-eyedropper fa-2x" aria-hidden="true"></i>
-                                </div>
-                                <div class="single_service_content col-10">
-                                    <h3>Vaccination</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
-                                        suscipit vero. Quam, dolorem!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="border_divider"></div>
+                <div class="col">
+                    <div class="main_service_content">
+                        <h1><b class="font" style="color:orange;">Welcome to Pets Care</b></h1>
+                        <h2>Your pet's health and well-being are out top priority.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore omnis voluptas beatae eligendi quisquam, molestiae consectetur ab magnam sed voluptatem!</p>
+                        <div class="row">                            
                             <div class="col-6">
                                 <div class="single_service row">
                                     <div class="single_service_icon col-2">
-                                        <i class="fa fa-medkit fa-2x" aria-hidden="true"></i>
+                                        <i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                                     </div>
                                     <div class="single_service_content col-10">
-                                        <h3>Pet Care</h3>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus eum deserunt
-                                            quidem provident error voluptatum.</p>
+                                        <h3>Pet Grooming</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
+                                            suscipit vero. Quam, dolorem!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="single_service row">
+                                    <div class="single_service_icon col-2">
+                                        <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="single_service_content col-10">
+                                        <h3>Pet Hotel</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
+                                            suscipit vero. Quam, dolorem!</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="single_service row">
+                                    <div class="single_service_icon col-2">
+                                        <i class="fa fa-eyedropper fa-2x" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="single_service_content col-10">
+                                        <h3>Vaccination</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam adipisci
+                                            suscipit vero. Quam, dolorem!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border_divider"></div>
+                                <div class="col-6">
+                                    <div class="single_service row">
+                                        <div class="single_service_icon col-2">
+                                            <i class="fa fa-medkit fa-2x" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="single_service_content col-10">
+                                            <h3>Pet Care</h3>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus eum deserunt
+                                                quidem provident error voluptatum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--kraj sekcije welcome -->
 
-    <!--Counter Section-->
+    <!--sekcija counter-->
     <section id="counter_two" class="counter_two">
         <div class="overlay">
             <div class="container">
@@ -208,46 +217,46 @@ require('includes/functions.php');
                             <div class="row">
                                 <div class="col-3">
                                     <div class="single_counter_two_right">
-                                    <i class="fa fa-male" aria-hidden="true"></i>
+                                        <i class="fa fa-male" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">2700</h2>
                                         <p class="font">Happy Customers</p>
                                     </div>
-                                </div><!-- End off col-sm-3 -->
+                                </div>
                                 <div class="col-3">
                                     <div class="single_counter_two_right">
-                                    <i class="fa fa-github" aria-hidden="true"></i>
+                                        <i class="fa fa-github" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">4520</h2>
                                         <p class="font">Pets Cure</p>
                                     </div>
-                                </div><!-- End off col-sm-3 -->
+                                </div>
                                 <div class="col-3">
                                     <div class="single_counter_two_right">
-                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                        <i class="fa fa-users" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">15</h2>
                                         <p class="font">Team Doctors</p>
                                     </div>
-                                </div><!-- End off col-sm-3 -->
+                                </div>
                                 <div class="col-3">
                                     <div class="single_counter_two_right">
-                                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                                        <i class="fa fa-trophy" aria-hidden="true"></i>
                                         <h2 class="statistic-counter_two">21</h2>
                                         <p class="font">Awards Winner</p>
                                     </div>
                                 </div>
-                            </div><!-- End off col-sm-3 -->
+                            </div><!--red sa 4 kolone brojevi ikonice -->
                         </div>
                     </div>
-                </div><!-- End off row -->
-            </div><!-- End off container -->
-        </div><!-- End off overlay -->
-    </section><!-- End off Counter section -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--kraj sekcije counter -->
 
+    <!--sekcija services -->
     <section class="services">
-        <!-- Page Content -->
         <div class="container">
             <h1 class="text-center font" style="color:orange;"><b>Our Services</b></h1>
             <p class="text-center">Your pet's health and well-being are our top priority.</p>
-            <!-- Page Features -->
             <div class="row text-center">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
@@ -284,7 +293,9 @@ require('includes/functions.php');
             <!-- /.container -->
         </div>
     </section>
+    <!--kraj sekcije services -->
 
+    <!--sekcija bigcat -->
     <section class="bigcat">
         <div class="card card-inverse">
             <img class="card-img" src="http://placehold.it/900x500" alt="Card image">
@@ -296,9 +307,10 @@ require('includes/functions.php');
             </div>
         </div>
     </section>
+    <!--kraj sekcije bigcat -->
 
+    <!--sekcija team -->
     <section class="team">
-        <!-- The Team -->
         <div class="home-doctors  clearfix">
             <div class="container">
                 <div class="row">
@@ -369,9 +381,10 @@ require('includes/functions.php');
                 </div>
             </div>
         </div>
-        <!-- //The Team -->
     </section>
+    <!--kraj sekcije team -->
 
+    <!--sekcija carousel -->
     <section id="carousel">        		
         <img src="http://via.placeholder.com/500x500" class="float-right" alt="">
         <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
@@ -395,7 +408,9 @@ require('includes/functions.php');
             </div>
         </div>
     </section>
+    <!--kraj sekcije carousel -->
 
+    <!--sekcija fromarticles -->
     <section class="fromarticles">
         <!-- Page Content -->
         <div class="container">
@@ -435,7 +450,9 @@ require('includes/functions.php');
         </div>
         <!-- /.container -->
     </section>
+    <!--kraj sekcije fromarticles -->
 
+    <!--sekcija specialoffer -->
     <section class="specialoffer">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
@@ -453,7 +470,9 @@ require('includes/functions.php');
             </div>
         </div>            
     </section>
+    <!--kraj sekcije specialoffer -->
 
+    <!--sekcija awards -->
     <section class="awards">
         <img src="http://via.placeholder.com/300x200" class="float-right" alt="">
         <div class="container">
@@ -472,14 +491,18 @@ require('includes/functions.php');
             </div>
         </div>
     </section>
+    <!--kraj sekcije awards -->
 
+    <!--sekcija appointments -->
     <section class="appointments">
         <h1>Get 30% Off for the First Time Appointment</h1>
         <p>Contact us now and make an apointment today.
             <a class="btn btn-md btn-round float-right" id="button2" href="#" role="button">Appointment Now!</a>
         </p>
     </section>
+    <!--kraj sekcije appointments -->
 
+    <!--sekcija contcts -->
     <section class="contacts">
         <div class="container">
             <div class="row">
@@ -544,7 +567,9 @@ require('includes/functions.php');
             </div>
         </div>
     </section>
+    <!--kraj sekcije contacts -->
 
+    <!--sekcija footer -->
     <footer class="footer">
         <b style="color:white;">Rometheme</b> &copy; All rights reserved. <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>
         <div class="float-right" style="margin-right:100px;">
@@ -554,6 +579,7 @@ require('includes/functions.php');
             <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
         </div>
     </footer>
+    <!--kraj sekcije footer -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

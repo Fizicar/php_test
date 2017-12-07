@@ -1,7 +1,14 @@
+/*stil za celu index stranu*/
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .font{
     font-family: 'Roboto Slab', serif;    
 }
 
+/*tri navbara na vrhu index strane*/
 #navbar1{
     background-color: #611919;
 }
@@ -32,7 +39,9 @@ color:white;
 #navbar3 .nav-link:hover,#navbar3 .nav-link:focus{
     color: black;
 }
+/*kraj navbara*/
 
+/*uvodna sekcija bigPicture sa jumbotronom*/
 .bigPicture{
     margin-top:-100px;
 }
@@ -58,8 +67,15 @@ color:white;
     background-color: white;
     color: orange;
 }
+/*kraj sekcije bigPicture*/
 
-/*Counter Section*/
+/*sekcija Welcome ()*/
+.welcome i{
+    color: orange;
+}
+/*kraj sekcije Welcome*/
+
+/*sekcija Counter (brojevi i ikonice)*/
 .sections {
     padding-top: 85px;
     padding-bottom: 105px;
@@ -70,10 +86,6 @@ color:white;
     width: 100%;
     height: 300px;
     margin-top: -100px;
-}
-
-.welcome i{
-    color: orange;
 }
 
 .counter_two{
@@ -103,21 +115,10 @@ color:white;
     color:orange;
     size: 10px;
 }
+/*kraj sekcije Counter*/
 
-/* Landscape phones and portrait tablets */
-@media  (max-width: 768px) {
-    html {
-        font-size: 80%;
-    }
 
-    .counter_two {
-        height: auto;
-    }
-    .overlay{
-        height: auto;
-    }
-}
-
+/*sekcija Services (tri karte u nizu)*/
 .services .card-text,.fromarticles .card-text,.team .card-body{
     border-bottom: 2px solid orange;
 }
@@ -130,109 +131,121 @@ color:white;
     background-color: rgb(172, 140, 0);
     color: rgb(46, 29, 0);
 }
+/*kraj sekcije Services*/
 
+/*sekcija bigcat (tekst sa video linkom)*/
 .bigcat .card-title,.bigcat .card-text{
     margin-left: 50px;
     margin-right: 50px;
 }
+/*kraj sekcije bigcat*/
 
-/*=============== //Home-team ===============*/
+/*sekcija team (clanovi grupe)*/
 .home-doctors {
     text-align: center;
     padding: 70px 0 80px;
-  }
+}
   
-  .home-doctors h2 {
-      font-weight: normal;
-  }
-  
-  .home-doctors .common-doctor {
+.home-doctors h2 {
+    font-weight: normal;
+}
+
+.home-doctors .common-doctor {
     background-color: #f0f5f6;
-  }
-  .home-doctors .common-doctor figure {
+}
+
+.home-doctors .common-doctor figure {
     overflow: hidden;
     width: 100%;
-      height: 196px;
-  }
-  
-  .home-doctors img {
-      width: 100%;
-      height: auto;
-      margin-top: -6em;
-  }
-  
-  .home-doctors .common-doctor h5 {
+    height: 196px;
+}
+
+.home-doctors img {
+    width: 100%;
+    height: auto;
+    margin-top: -6em;
+}
+
+.home-doctors .common-doctor h5 {
     margin: 0 0 7px;
     font-size: 18px;
-      font-weight: 700;
-      color: #3a3c41;
-  }
-  .home-doctors .common-doctor .for-border {
+    font-weight: 700;
+    color: #3a3c41;
+}
+
+.home-doctors .common-doctor .for-border {
     margin-bottom: 20px;
-  }
-  .home-doctors .common-doctor .text-content {
+}
+
+.home-doctors .common-doctor .text-content {
     padding: 19px 14px 13px;
-  }
-  .home-doctors.doctors-var-two {
+}
+
+.home-doctors.doctors-var-two {
     text-align: left;
     background-color: #fff;
-  }
-  .home-doctors.doctors-var-two .slogan-section {
+}
+
+.home-doctors.doctors-var-two .slogan-section {
     text-align: left;
-  }
-  .home-doctors.doctors-var-two .common-doctor {
+}
+
+.home-doctors.doctors-var-two .common-doctor {
     background-color: transparent;
-  }
-  .home-doctors.doctors-var-two .common-doctor .for-border {
+}
+
+.home-doctors.doctors-var-two .common-doctor .for-border {
     display: none;
-  }
-  .home-doctors.doctors-var-two .common-doctor .text-content {
+}
+
+.home-doctors.doctors-var-two .common-doctor .text-content {
     padding: 20px 0 20px;
-  }
-  .home-doctors.doctors-var-two .text-center {
+}
+
+.home-doctors.doctors-var-two .text-center {
     text-align: left;
-  }
-  
-  .slogan-section {
-      margin-bottom: 50px;
-      text-align: center;
-  }
-  
-  .home-doctors .common-doctor .for-border {
-      margin-bottom: 20px;
-  }
-  
-  .home-doctors .common-doctor h5 small {
-      color: orange;
-      font-weight: bold;
-      font-size: 0.8em;
-      font-style: italic;
-  }
-  
-  .home-doctors .common-doctor ul{
-      position: absolute;
-      top: 50%;
-      left: 0;
-      width: 100%;
-      margin-top: -28px;
-      text-align: center;
-      margin-top: -2em;
-      opacity: 0.5;
-      z-index: 1;
-  }
-  
-  .home-doctors li a {
-      background-color: white;
-      padding: 0.75em;
-  }
-  
-  .home-doctors li a:hover {
+}
+
+.slogan-section {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-doctors .common-doctor .for-border {
+    margin-bottom: 20px;
+}
+
+.home-doctors .common-doctor h5 small {
+    color: orange;
+    font-weight: bold;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.home-doctors .common-doctor ul{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -28px;
+    text-align: center;
+    margin-top: -2em;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.home-doctors li a {
+    background-color: white;
+    padding: 0.75em;
+}
+
+.home-doctors li a:hover {
     background-color:black;
     color:white;
     padding: 0.75em;
 }
 
-  .home-doctors li i {
+.home-doctors li i {
     margin-top: -2em;
     opacity: 1;
     color:black;
@@ -245,20 +258,12 @@ color:white;
 }
 
 .common-doctor li:hover {
-      margin-top: -2em;
-      opacity: 1;
+    margin-top: -2em;
+    opacity: 1;
 }
-
+/*kraj sekcije team*/
   
-  /*=============== //Home-team ===============*/
-
-/* testimonial*/
-
-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
+/*sekcija carousel / testimonial*/
 .quote {
     color: rgba(0,0,0,.1);
     text-align: center;
@@ -269,30 +274,32 @@ section {
     background-color: #acacac;
 }
 
-/*testimonial*/
-
 #testimonial4{
     overflow: hidden;
     min-height: 375px;
     position: relative;
   }
-  #testimonial4 .carousel-inner{
+
+#testimonial4 .carousel-inner{
     width: 75%;
     margin: auto;
-  }
-  #testimonial4 .carousel-inner:hover{
+}
+
+#testimonial4 .carousel-inner:hover{
     cursor: -moz-grab;
     cursor: -webkit-grab;
-  }
-  #testimonial4 .carousel-inner:active{
+}
+
+#testimonial4 .carousel-inner:active{
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
-  }
-  #testimonial4 .carousel-inner .item{
+}
+
+#testimonial4 .carousel-inner .item{
     overflow: hidden;
-  }
-  
-  .testimonial4_indicators .carousel-indicators{
+}
+
+.testimonial4_indicators .carousel-indicators{
     left: 0;
     margin: 0;
     width: 100%;
@@ -306,8 +313,9 @@ section {
     position: absolute;
     text-align: center;
     white-space: nowrap;
-  }
-  .testimonial4_indicators .carousel-indicators li{
+}
+
+.testimonial4_indicators .carousel-indicators li{
     padding: 0;
     width: 10px;
     height: 10px;
@@ -319,8 +327,9 @@ section {
     background: #ffffff;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-  }
-  .testimonial4_indicators .carousel-indicators .active{
+}
+
+.testimonial4_indicators .carousel-indicators .active{
     padding: 0;
     width: 10px;
     height: 10px;
@@ -329,17 +338,19 @@ section {
     background-color: #000;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-  }
-  .testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
+}
+
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar{
     height: 3px;
-  }
-  .testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
+}
+
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb{
     background: #eeeeee;
     -webkit-border-radius: 0;
     border-radius: 0;
-  }
+}
   
-  .testimonial4_control_button .carousel-control{
+.testimonial4_control_button .carousel-control{
     top: 175px;
     opacity: 1;
     width: 40px;
@@ -362,23 +373,25 @@ section {
     box-shadow: none;
     -webkit-transition: all 0.6s cubic-bezier(0.3,1,0,1);
     transition: all 0.6s cubic-bezier(0.3,1,0,1);
-  }
-  .testimonial4_control_button .carousel-control.left{
+}
+
+.testimonial4_control_button .carousel-control.left{
     left: 7%;
     right: auto;
-  }
-  .testimonial4_control_button .carousel-control.right{
+}
+
+.testimonial4_control_button .carousel-control.right{
     right: 7%;
     left: auto;
-  }
-  .testimonial4_control_button .carousel-control.left:hover,
-  .testimonial4_control_button .carousel-control.right:hover{
+}
+
+.testimonial4_control_button .carousel-control.left:hover, .testimonial4_control_button .carousel-control.right:hover{
     color: #000;
     background: #fff;
     border: 2px solid #fff;
-  }
+}
   
-  .testimonial4_header{
+.testimonial4_header{
     top: 0;
     left: 0;
     bottom: 0;
@@ -387,17 +400,17 @@ section {
     margin: 30px auto;
     text-align: center;
     position: relative;
-  }
-  .testimonial4_header h4{
-    
+}
+
+.testimonial4_header h4{
     font-size: 30px;
     font-weight: 600;
     position: relative;
     letter-spacing: 1px;
     text-transform: uppercase;
-  }
+}
   
-  .testimonial4_slide{
+.testimonial4_slide{
     top: 0;
     left: 0;
     right: 0;
@@ -407,8 +420,9 @@ section {
     padding: 20px;
     position: relative;
     text-align: center;
-  }
-  .testimonial4_slide img {
+}
+
+.testimonial4_slide img {
     top: 0;
     left: 0;
     right: 0;
@@ -416,25 +430,24 @@ section {
     height: 50px;
     margin: auto;
     display: block;
-
     font-size: 18px;
     line-height: 46px;
     text-align: center;
     position: relative;
-  }
+}
   
-  .testimonial4_slide p {
+.testimonial4_slide p {
     font-size: 16px;
     margin: 40px 0 20px 0;
-  }
+}
   
-  .testimonial4_slide h4 {
+.testimonial4_slide h4 {
     font-size: 24px;
     font-weight: bold;
-  }
-  
-/*end of testimonial*/
+}
+/*kraj sekcije carousel / testimonial*/
 
+/*sekcija specialoffer (manji jumbotron)*/
 .specialoffer>.jumbotron {
     background-color: orange;    
     background-size: cover;
@@ -451,11 +464,14 @@ section {
     background-color: white;
     color: orange;
 }
+
 #button3:hover{
     background-color: orange;
     color: white;
 }
+/*kraj sekcije specialoffer*/
 
+/*sekcija appointments (tekst i dugme)*/
 .appointments{
     background-color: orange;
     color: white;
@@ -465,7 +481,9 @@ section {
     margin-left: 100px;
     margin-right: 100px;
 }
+/*kraj sekcije appointments*/
 
+/*sekcija contacts*/
 .contacts{
     background-color: rgba(0, 0, 0, 0.9);
     background:transparent url('http://placehold.it/800x300') no-repeat center center /cover;
@@ -490,7 +508,9 @@ section {
 .social-lists li i:hover{
     color: orange;
 }
+/*kraj sekcije contacts*/
 
+/*sekcija footer*/
 .footer{
     background-color: black;
     color: grey;
@@ -513,7 +533,10 @@ section {
 .footer i:hover, .footer a:hover{
     color: orange;
 }
+/*kraj sekcije footer*/
 
+
+/*login.php*/
 .formlogin{
     background-color: #283d6e;
     color: white;
@@ -533,8 +556,11 @@ section {
     color: white;
     width: 100%;
 }
+/*kraj login.php*/
 
+/*admin_php.php*/
 .opis{
     width:350px;
     border:1px solid black;
 }
+/*kraj admin_php.php*/
