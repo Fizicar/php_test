@@ -7,7 +7,7 @@ require 'includes/connection.php';
 if (!isset($_SESSION['id'])){
     include ("login.php");
 }else{
-    include ("admin_html.php");
+    include ("admin_php.php");
 }
 ?>
 

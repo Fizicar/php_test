@@ -3,7 +3,6 @@
 	<head>
 		<title>Simple Ajax Form</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<<<<<<< HEAD
 
 		<script src="https://use.fontawesome.com/ffb6023ab4.js"></script>
 		<link href="assets/css/styles.css" media="all" rel="stylesheet" type="text/css" />
@@ -48,11 +47,6 @@
 	<body>
 <!--
 		<form method="post" name="postForm">
-=======
-	</head>
-	<body>
-		<form method="post" name="postForm" id="login_form">
->>>>>>> cfcbf672a1d4b2ce7a237735faefb981fcfd92ec
 			<ul>
 				<li>
 					<label for="uname">Name</label>
@@ -64,7 +58,6 @@
 			<input type="submit" value="Send" />
 		</form>
 		<div id="success"></div>
-<<<<<<< HEAD
 -->
 		<form class="formlogin text-center" method="post" name="postForm">
 			<div class="row">
@@ -91,13 +84,5 @@
 			</div>
 		</form>
 		<div id="success"></div>
-=======
-
-		
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script src="assets/javascript/main.js"></script>
->>>>>>> cfcbf672a1d4b2ce7a237735faefb981fcfd92ec
 	</body>
 </html>
